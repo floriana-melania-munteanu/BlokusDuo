@@ -10,6 +10,7 @@ import org.junit.jupiter.api.Test;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
+import control.*;
 
 class PieceTest implements Game{
     private final ByteArrayOutputStream outputStreamCaptor = new ByteArrayOutputStream();

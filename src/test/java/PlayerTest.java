@@ -10,6 +10,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.Scanner;
 
 import static org.junit.jupiter.api.Assertions.*;
+import control.*;
 
 class PlayerTest {
 

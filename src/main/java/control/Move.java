@@ -1,11 +1,12 @@
+package control;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.Stack;
-
+import ui.UI;
 public class Move implements Game{
-    protected static Stack<Character> manipulations =  new Stack<>();
+    public static Stack<Character> manipulations =  new Stack<>();
 
     //takes the piece name and coordinates as input and places the piece on the board
     public static void move(Player p, Scanner in) throws IOException {

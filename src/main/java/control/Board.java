@@ -2,8 +2,9 @@
 //Team members name: Niall Meagher - 20768511
 //                   Nathan Mahady - 20522563
 //                   Floriana Melania Munteanu - 20349023
-
-public class Board implements Game{
+package control;
+import ui.UI;
+public class Board implements Game {
 
     private static final int BOARD_SIZE = 14;
     public static boolean firstMove = true;

@@ -2,7 +2,8 @@
 //Team members name: Niall Meagher - 20768511
 //                   Nathan Mahady - 20522563
 //                   Floriana Melania Munteanu - 20349023
-
+package control;
+import ui.UI;
 public class Piece implements Game{
     private type shape;
     private colour team;

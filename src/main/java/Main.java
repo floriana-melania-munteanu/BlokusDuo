@@ -3,11 +3,17 @@
 //                   Nathan Mahady - 20522563
 //                   Floriana Melania Munteanu - 20349023
 
+import control.Game;
+import control.Player;
+import control.Board;
+import control.Move;
+import ui.UI;
+
 import java.io.IOException;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Main implements Game{
+public class Main implements Game {
     public static void main(String[] args) throws IOException {
         int startingPlayer = 0;
         Scanner in = new Scanner(System.in);

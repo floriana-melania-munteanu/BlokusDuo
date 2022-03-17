@@ -2,7 +2,8 @@
 //Team members name: Niall Meagher - 20768511
 //                   Nathan Mahady - 20522563
 //                   Floriana Melania Munteanu - 20349023
-
+package control;
+import ui.UI;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
